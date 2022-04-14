@@ -8,12 +8,6 @@
         <type>Flexipage</type>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
-    <brand>
-        <headerColor>#0070D2</headerColor>
-        <logo>telegram</logo>
-        <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
-    </brand>
     <description>Lightning app for setting up Telegram service</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>

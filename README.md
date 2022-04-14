@@ -1,4 +1,4 @@
-# _Telegram Connector for Salesforce_
+# _Clone of Telegram Connector for Salesforce_
 ---------
 [Bot API]: https://core.telegram.org/bots/api
 This codebase will allow Salesforce Developers to easily integrate the Salesforce platform with Telegram through [Bot API]. This is not complete coverage, but fair enough to get developers going by eliminating a lot of hassles with which, under normal circumstances, they might have been facing in overcoming basic communication between two systems.

@@ -1,5 +1,5 @@
 <template>
-        <h1 class="slds-badge">{hours}</h1>
-        <h1 class="slds-badge">{minutes}</h1>
-        <p class="slds-badge slds-theme_success">{seconds}</p>
+        <lightning-formatted-date-time value={time} hour="2-digit" class="slds-badge"></lightning-formatted-date-time>
+        <lightning-formatted-date-time value={time} minute="2-digit" class="slds-badge"></lightning-formatted-date-time>
+        <lightning-formatted-date-time value={time} second="2-digit" class="slds-badge"></lightning-formatted-date-time>
 </template>

@@ -2,24 +2,16 @@ import { LightningElement } from 'lwc';
 
 export default class ShowTime extends LightningElement {
   
-    hours = '';
-    minutes = '';
-    seconds = '';
+    time = new Date();
+    intervalId;
     
-    getTimeString() {
-        const date = new Date();
-        const hours = date.getHours();
-        const minutes = date.getMinutes();
-        const seconds = date.getSeconds();
-        this.hours = hours
-        this.minutes = minutes;
-        this.seconds = seconds;
-    }
     connectedCallback() {
-        
-        this.getTimeString();
-        setInterval(() => {
-            this.getTimeString();
+        this.intervalId = setInterval(() => {
+            this.time = new Date();
         }, 1000);
+    }
+
+    disconnectedCallback() {
+        clearInterval(this.intervalId);
     }
 }

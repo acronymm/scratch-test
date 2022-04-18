@@ -15,10 +15,22 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentName>showTime</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>customComp</componentName>
+        </componentInstances>
         <name>middle</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentName>helloBekhzod</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>todoList</componentName>
+        </componentInstances>
         <name>right</name>
         <type>Region</type>
     </flexiPageRegions>
